@@ -1,15 +1,15 @@
 ---
-name: one-shot-graph
+name: visualize-skill
 description: |
   복잡한 사업·문제의 **본질을 한 프레임으로 압축**하는 논리 엔진. 20프레임 기반 본질질문→프레임선택→슬롯명세. 시각 산출 ✗.
   P1: 원샷, 원샷그래프, 한장프레임, 본질프레임, 프레임선택, 프레임진단, 작동원리, 플라이휠, 퍼널, Hook, Journey, Two-sided, Multi-Flywheel, Unit Economics, NSM트리, Capability Stack, Control Point, JTBD, Value Chain, Unbundling.
   P2: 압축해줘, 프레임 골라줘, 본질 뽑아줘, diagnose, pick frame.
   P3: one-page framework, mental model selection.
   P5: .md로.
-  NOT: 시각산출(→design-skill/apple-box-design), UI(→ui-action-designer), 산업분석(→biz-skill).
+  NOT: 시각산출(→design-skill/apple-box-design), UI(→ui-designer), 산업분석(→biz-skill).
 ---
 
-# One-Shot Graph
+# Visualize Skill — 비주얼라이즈 스킬
 
 **복잡한 현실을 하나의 작동원리로 압축하는 논리 엔진.** 원샷그래프·한장프레임·본질프레임·프레임선택·프레임진단 맥락에서 자동발동. 20프레임 카탈로그로 본질 질문에 맞는 프레임을 고르고, 그 프레임의 노드·엣지·축을 명세화한다.
 
@@ -194,23 +194,15 @@ description: |
 **NOT:**
 - 시각 산출·디자인 → design-skill / apple-box-design
 - 일반 차트·인포그래픽 → design-skill
-- UI 설계 → ui-action-designer
+- UI 설계 → ui-designer
 - 산업 분석 전반 → biz-skill
 
 ---
 
 
-## §INV NO_WORK_LABEL (산출물·대화 본질 보호)
+## §INV NO_WORK_LABEL
+산출물·대화 작업 라벨 ZERO. → `shaper-skill/references/no-work-label.md`
 
-| 항목 | 정의 |
-|------|------|
-| RULE | 산출물·대화 = 인간 언어. 작업 라벨 ZERO. (1만 페이지 1단어 = FAIL) |
-| 판정 | "이 단어, 이 대화 밖 사람이 사전 없이 읽을 수 있나?" NO → 작업 라벨 → 금지 |
-| ALLOW | 업계 전문용어(JTBD·MVP·KPI·NSM·LTV·CAC) · 고유명사 · 법조문 |
-| CONVERT | 라벨 발견 → 실명·평문 풀어쓰기. 예) "20프레임·Hook·Journey·Two-sided·Multi-Flywheel·Capability Stack·Control Point·Value Chain·Unbundling" → 결과만 노출(프레임 코드 ✗·결과 본문 평문) |
-| SELF_CHECK | 한장프레임 출력 직전에서 자체 스캔. 1개라도 발견 = 차단·재작성. paper-engine cascade 경유 시 INV 13 자동 적용 |
-
----
 
 ## Gotchas
 
