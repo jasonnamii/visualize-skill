@@ -13,9 +13,30 @@ description: |
 
 **복잡한 현실을 하나의 작동원리로 압축하는 논리 엔진.** 원샷그래프·한장프레임·본질프레임·프레임선택·프레임진단 맥락에서 자동발동. 20프레임 카탈로그로 본질 질문에 맞는 프레임을 고르고, 그 프레임의 노드·엣지·축을 명세화한다.
 
+
+## Skill Boundaries
+
+- **하는 것** — 복잡한 사업·문제의 **본질을 한 프레임으로 압축**하는 논리 엔진.
+- **안 하는 것** — 시각산출(→design-skill/apple-box-design), UI(→ui-designer), 산업분석(→biz-skill).
+
 **시각 산출은 하지 않는다.** 이 스킬의 산출물은 "이 사업은 Multi-Flywheel이다. 3루프는 X·Y·Z이고 연결점은 A·B"까지. 실제 그림은 별도 디자인 스킬(design-skill·apple-box-design)이 담당.
 
 ---
+
+## When to Use
+
+- 사용자가 "압축해줘", "프레임 골라줘", "본질 뽑아줘", "diagnose", "pick frame." 같은 표현으로 발동
+- 도메인 작업이 필요한 시점
+- **안 쓸 때** — 시각산출(→design-skill/apple-box-design), UI(→ui-designer), 산업분석(→biz-skill).
+
+
+## Prerequisites
+
+| # | 체크 | 미충족 시 |
+|---|------|-----------|
+| 1 | 대상·입력 명확 (스킬 발동 의도 확인) | 1줄 확인 후 진입 |
+| 2 | references/ 폴더 접근 가능 | inline fallback |
+
 
 ## 절대 규칙 (3개)
 
@@ -204,7 +225,31 @@ description: |
 산출물·대화 작업 라벨 ZERO. → `shaper-skill/references/no-work-label.md`
 
 
-## Gotchas
+## Output Path
+
+| 산출물 | 경로 |
+|---|---|
+| 주 산출물 | `mnt/outputs/visualize-skill_{topic}_{YYYY-MM-DD}.md` |
+| 형식 | .md로. |
+| 리서치 결과 (해당 시) | `{VAULT}/_skills research/visualize-skill/{YYYY-MM-DD}_{topic}.md` |
+
+## Reference Index
+
+| 파일 | 내용 | 언제 |
+|---|---|---|
+| `references/examples.md` | examples | 해당 단계 진입 시 |
+| `references/frames-catalog.md` | frames catalog | 해당 단계 진입 시 |
+
+
+## Next Phase
+
+본 스킬 작업 후 자연스럽게 이어지는 흐름:
+
+- 후속 작업 → `design-skill`
+- 후속 작업 → `ui-designer`
+- 후속 작업 → `biz-skill`
+
+## Failure Modes (Gotchas)
 
 | 함정 | 대응 |
 |------|------|
@@ -215,3 +260,11 @@ description: |
 | 유사 프레임 구분 애매 | frames-catalog.md 변별점 섹션 참조 (Flywheel↔Loop, Two-sided↔Multi-Flywheel 등) |
 | 본질 질문이 2개 (성장+수익) | 프레임 결합 패턴 적용 (Flywheel + Unit Economics 등). 3개+면 분할 |
 | DIAGNOSE만 원했는데 DESIGN 돌입 | DIAGNOSE 산출 후 "DESIGN으로 전환?" 1줄 제안, 컨펌 후 진행 |
+
+
+## ❌ WRONG vs ✅ CORRECT
+
+```
+❌ WRONG: 트리거 단어만 보고 발동 — 본질·범위 확인 ✗ → 오발동·범위 이탈
+✅ CORRECT: Skill Boundaries·When to Use 확인 후 발동 → 본질 작업만 수행
+```
