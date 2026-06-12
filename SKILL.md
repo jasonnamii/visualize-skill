@@ -1,5 +1,6 @@
 ---
 name: visualize-skill
+version: 1.0
 description: |
   복잡한 사업·문제의 **본질을 한 프레임으로 압축**하는 논리 엔진. 20프레임 기반 본질질문→프레임선택→슬롯명세. 시각 산출 ✗. 트리거: 시각화스킬, 시각화, visualize-skill, visualize skill, 인포그래픽, infographic, 원샷, 원샷그래프, 한장프레임, 본질프레임, 프레임선택, 프레임진단, 작동원리, 플라이휠, 퍼널, Hook, Journey, Two-sided. NOT: 시각산출(→apple-canvas·prism-design·editorial-design·box-cut-design·teenage-design), UI(→ui-designer), 산업분석(→biz-skill).
 ---
